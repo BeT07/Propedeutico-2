@@ -1,0 +1,45 @@
+\documentclass{article}
+
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage[
+  top=3cm,
+  bottom=3cm,
+  left=2cm,
+  right=2cm,
+  heightrounded,
+]{geometry}
+\usepackage{enumerate}
+
+\author{Carlos Martinez}
+\title{Mi titulo}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+Plantilla de \LaTeX.
+
+% https://www.lipsum.com
+\section{Ejemplos en Latex}
+\begin{enumerate}
+\item Este es el primer párrafo en el primer nivel
+  \begin{enumerate}
+  \item Queremos ver que pasa al anidar en el segundo nivel
+  \end{enumerate}
+\end{enumerate}
+\begin{enumerate}[a]
+\item Este es otro ejemplo de enumeración
+\item Este es otro renglón
+\end{enumerate}
+\begin{enumerate}[I.]
+  \item Ejemplo de inciso con números romanos
+  \item Segundo inciso con números romanos
+\end{enumerate}
+\begin{enumerate}[1]
+\item Ejemplo
+  \begin{enumerate}[1.1]
+\end{document}
